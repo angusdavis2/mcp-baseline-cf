@@ -4,7 +4,7 @@ import { toolDefinitions, toolHandlers, setBaselineApiKey } from "./tools.js";
 
 export class MyMCP extends McpAgent {
 	server = new McpServer({
-		name: "mcp-baseline",
+		name: "mcp-baseline-cf",
 		version: "1.0.0",
 	});
 
